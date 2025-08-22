@@ -53,5 +53,6 @@ Para executar este projeto, siga os passos abaixo:
 ## 📂 Estrutura do Código
 
 Para fins didáticos, todo o código de manipulação dos componentes está centralizado no arquivo **`MainActivity.java`**. O layout correspondente, com todos os widgets declarados, pode ser encontrado em **`app/src/main/res/layout/activity_main.xml`**.
+
 <img width="433" height="902" alt="image" src="https://github.com/user-attachments/assets/03c6d48b-af6d-417b-a203-037fcb4f6b00" />
 
