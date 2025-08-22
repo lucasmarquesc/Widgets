@@ -12,7 +12,7 @@ Este repositório contém o código-fonte desenvolvido em aula para demonstrar o
 
 ---
 
-## 🛠️ Widgets e Componentes Abordados
+## Widgets e Componentes Abordados
 
 O código no arquivo `MainActivity.java` demonstra a implementação e manipulação dos seguintes componentes:
 
