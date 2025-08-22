@@ -37,7 +37,7 @@ Para executar este projeto, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    git clone [[https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/lucasmarquesc/Widgets.git)]
     ```
 2.  **Abra no Android Studio:**
     * Inicie o Android Studio.
