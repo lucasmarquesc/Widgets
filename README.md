@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório contém o código-fonte desenvolvido em aula para demonstrar o uso e a manipulação dos principais componentes de interface (Widgets) do Android. O projeto serve como um guia prático e um laboratório para estudantes da disciplina, abordando desde elementos básicos de texto e botões até componentes mais complexos como barras de progresso e listas suspensas.
 
@@ -31,7 +31,7 @@ O código no arquivo `MainActivity.java` demonstra a implementação e manipula�
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 Para executar este projeto, siga os passos abaixo:
 
@@ -50,7 +50,7 @@ Para executar este projeto, siga os passos abaixo:
 
 ---
 
-## 📂 Estrutura do Código
+## Estrutura do Código
 
 Para fins didáticos, todo o código de manipulação dos componentes está centralizado no arquivo **`MainActivity.java`**. O layout correspondente, com todos os widgets declarados, pode ser encontrado em **`app/src/main/res/layout/activity_main.xml`**.
 
