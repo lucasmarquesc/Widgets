@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Widgets</string>
+    <array name="nomes">
+        <item>João</item>
+        <item>Maria</item>
+        <item>José</item>
+        <item>Ana</item>
+        <item>Pedro</item>
+    </array>
 </resources>

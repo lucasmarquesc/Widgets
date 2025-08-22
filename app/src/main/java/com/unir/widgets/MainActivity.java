@@ -3,6 +3,7 @@ package com.unir.widgets;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -68,12 +69,12 @@ public class MainActivity extends AppCompatActivity {
         });
         //Manipulação do componente RadioGroup (Usando Button)
         RadioGroup radioGroup = findViewById(R.id.radioGroup);
-        int checkedId = radioGroup.getCheckedRadioButtonId();
-        RadioButton radioButton = findViewById(checkedId);
         Button btn_radioButton = findViewById(R.id.btn_RadioButton);
         btn_radioButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                int checkedId = radioGroup.getCheckedRadioButtonId();
+                RadioButton radioButton = findViewById(checkedId);
                 Toast.makeText(MainActivity.this, "Opção selecionada: " + radioButton.getText(), Toast.LENGTH_SHORT).show();
             }
         });
@@ -130,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         Spinner spinner = findViewById(R.id.spinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_item,
-                getResources().getStringArray(android.R.array.phoneTypes));
+                opcoes);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -189,7 +190,6 @@ public class MainActivity extends AppCompatActivity {
         //Manipulação do componente RatingBar
         RatingBar ratingBar = findViewById(R.id.ratingBar);
         ratingBar.setNumStars(5);
-        ratingBar.setMax(10);
         ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
@@ -205,6 +205,7 @@ public class MainActivity extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.widget2);
             }
         });
+        //Manipulação do componente TextInputEditText
         TextInputEditText textInputEditText = findViewById(R.id.textInputEditText);
         Button btn_textInputEditText = findViewById(R.id.btn_textInputEditText);
         btn_textInputEditText.setOnClickListener(new View.OnClickListener() {
